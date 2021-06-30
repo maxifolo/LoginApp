@@ -13,7 +13,7 @@ export class AuthService {
   //login
   //https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
   private url = 'https://identitytoolkit.googleapis.com/v1/accounts:';
-  private apikey = 'AIzaSyAg0v7tvLmgjXIFIe4on3xhD4x8T2VCaRY';
+  private apikey = 'apikey from firebase user';
 
   userToken: string;
   constructor(private http: HttpClient) {
